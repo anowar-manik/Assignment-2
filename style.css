@@ -1,0 +1,147 @@
+/* google font */
+.inter-normal-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+/* 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+
+  /* body background color */
+  body{
+    background: #333;
+    color: white;
+}
+
+/* common style */
+section{
+  margin-top: 100px;
+}
+.text-center{
+  text-align: center;
+  font-weight: 900;
+
+}
+.btn{
+  
+  padding: 22px 10px 22px 10px;
+  color: white;
+  background-color: coral;
+  border: none;
+  border-radius: 20px;
+}
+.primary-p{
+  font-size: 1rem;
+  opacity: .4;
+  align-items: center;
+  justify-content: center;
+}
+
+/* habits section style */
+.habits-img{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.habits img{
+  border-radius: 50%;
+}
+.habits p{
+  font-size: .6rem;
+  text-align: center;
+  opacity: .5;
+
+}
+
+.habits h6, h1{
+  text-align: center;
+}
+
+
+/* run section */
+
+.run img{
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+}
+.run p{
+  font-size: .6rem;
+  opacity: .5;
+}
+.run{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.run-content{
+justify-content: space-between;
+
+}
+
+/* team section */
+.team-img{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 80px;
+  justify-items: center;
+  gap: 20px;
+  
+}
+.team img{
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0.8;
+  
+  
+}
+
+
+/* get start section */
+.get-start{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.get-start p{
+  color: whitesmoke;
+  
+}
+
+.span-1{
+  color: orange;
+  font-weight: bolder;
+  font-size: 3rem;
+  font-style: italic;
+  justify-content: left;
+  text-align: left;
+}
+.get-start-1{
+width: 50%;
+text-align: left;
+
+}
+.get-start h1{
+  text-align: left;
+}
+.get-start-2{
+  width: 25%;
+
+}
+
+.get-start-3{
+  width: 25%;
+
+}
