@@ -31,11 +31,11 @@ section{
 }
 .btn{
   
-  padding: 22px 10px 22px 10px;
-  color: white;
-  background-color: coral;
+  background-color: #FF900E;
   border: none;
-  border-radius: 20px;
+  padding: 8px 30px;
+  border-radius: 14px;
+  color: white;
 }
 .primary-p{
   font-size: 1rem;
@@ -44,6 +44,114 @@ section{
   justify-content: center;
 }
 
+
+/* Header section style */
+/* navbar section */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+  
+
+}
+nav ul{
+  display: flex;
+
+}
+nav a{
+  text-decoration: none;
+  font-weight:bold;
+  
+}
+nav li{
+  list-style: none;
+  margin-right: 30px;
+  
+}
+.logo{
+  color: #FF900E;
+  font-style: italic;
+  font-size: 3rem;
+}
+nav button{
+  background-color: #FF900E;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 14px;
+  
+}
+
+/* banner style  */
+.banner{
+  display: flex;
+  justify-content: center;
+}
+.banner-btn{
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+  justify-content: center;
+}
+.title{
+  font-size: 4rem;
+}
+.banner-des{
+  opacity: .5;
+  font-size: .8rem;
+  justify-content: center;
+}
+
+.banner-btn-1{
+  background-color: #FF900E;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 14px;
+  color: white;
+}
+.banner-btn-2{
+  background-color: #333;
+  border: 1px solid white;
+  padding: 8px 30px;
+  border-radius: 14px;
+  color: white;
+
+}
+.banner-btn-1, .banner-btn-2:hover{
+  
+}
+
+.banner-img{
+  margin-left: 150px;
+}
+.banner-img img{
+  height: 500px;
+  background-size: cover;
+}
+.card{
+  background-color: #333;
+  opacity: .5;
+  border-radius: 14px;
+  border: 1px solid black;
+  margin-top: -150px;
+  line-height: .5rem;
+
+}
+.card-title{
+  font-weight: 800;
+
+   
+  
+}
+.workouts{
+  border: 1px solid black;
+  opacity: .5;
+  text-align: center;
+  line-height: .5rem;
+  margin-bottom: -100px;  
+  margin-left: 200px;
+}
 /* habits section style */
 .habits-img{
   display: flex;
@@ -68,24 +176,107 @@ section{
 /* run section */
 
 .run img{
-  height: 150px;
-  width: 200px;
+  height: 200px;
+  width: 280px;
   border-radius: 10px;
+  margin-left: 150px;
 }
 .run p{
-  font-size: .6rem;
+  font-size: .8rem;
   opacity: .5;
+  margin-top: 10px;
 }
 .run{
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-content: space-evenly
+}
+.run-title{
+  font-size: 2.5rem;
 }
 
 .run-content{
 justify-content: space-between;
 
 }
+
+                  /* <!-- Training and exercise section --> */
+
+  
+/* .exercise-1{
+  display: flex;
+}
+.exercise-1 p{
+  margin-top: -100px;
+} */
+
+
+/* bmi section */
+.bmi h1{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.bmi-chart-calculator{
+  display: flex;
+  justify-content: space-between;
+}
+.bmi-chart{
+  display: flex;
+  justify-content: space-between;
+  margin-left: -370px;
+}
+.chart-num{
+  margin-top: 50px;
+  margin-left: 
+}
+.chart-status{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.chart-head{
+  /* text-align: center; */
+  margin-left: 100px;
+
+}
+
+.chart-num p{
+  opacity: .5;
+  font-size: 1rem;
+}
+.chart-status{
+  opacity: .5;
+  font-size: 1rem;
+}
+
+.bmi-calculator p{
+  opacity: .5;
+  font-size: 1rem;
+  
+  
+}
+.bmi-calculator-content input{
+ padding: 8px 25px;
+ margin-bottom: 5px;
+ border-radius: 8px;
+ background-color: #333;
+ border: 1px solid white;
+ color: white;
+}
+.bmi-calculator-content ::placeholder{
+  color: white;
+  opacity: .5;
+}
+.bmi-calculator-content fieldset{
+  /* padding: 8px 10px; */
+  border-radius: 8px;
+  width: 300px;
+}
+
+
+
 
 /* team section */
 .team-img{
@@ -105,6 +296,9 @@ justify-content: space-between;
   
   
 }
+.team{
+  justify-content: center;
+}
 
 
 /* get start section */
@@ -112,6 +306,7 @@ justify-content: space-between;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
   
 
 }
@@ -144,4 +339,68 @@ text-align: left;
 .get-start-3{
   width: 25%;
 
+}
+
+.design{
+  text-align: center;
+  font-size: .8rem;
+  opacity: .5;
+  line-height: .4rem;
+}
+
+
+
+
+
+/* mobile responsive start */
+
+@media screen and (max-width:576px) {
+  /* run section */
+  .run{
+    flex-direction: column;
+  }
+  .run img{
+   margin-top: 50px;
+   margin-left: -100px;
+  align-items: center;
+  }
+  .run-title{
+    align-items: center;
+  }
+
+/* bmi section */
+
+  .bmi-chart-calculator{
+    flex-direction: column;
+  }
+  .bmi-calculator h3{
+    text-align: center;
+  }
+  .bmi-chart{
+    margin-left: -400px;
+  }
+
+
+/* habits section */
+
+  .habits-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align: left;
+
+  }
+  .habits-img-1, .habits-img-2, .habits-img-3, .habits-img-4{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+
+/* team section */
+
+  .team-img{
+    flex-direction: column;
+  }
+  
 }
