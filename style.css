@@ -71,7 +71,7 @@ nav li{
   
 }
 .logo{
-  color: #FF900E;
+  color: brown;
   font-style: italic;
   font-size: 3rem;
 }
@@ -272,7 +272,7 @@ justify-content: space-between;
 .bmi-calculator-content fieldset{
   /* padding: 8px 10px; */
   border-radius: 8px;
-  width: 300px;
+  width: 200px;
 }
 
 
@@ -316,7 +316,7 @@ justify-content: space-between;
 }
 
 .span-1{
-  color: orange;
+  color: brown;
   font-weight: bolder;
   font-size: 3rem;
   font-style: italic;
@@ -355,6 +355,32 @@ text-align: left;
 /* mobile responsive start */
 
 @media screen and (max-width:576px) {
+
+  /* banner section */
+  .banner{
+    flex-direction: column;
+  }
+  .banner-content{
+    margin-bottom: 50px;
+  }
+  .title{
+    text-align: left;
+  }
+  .banner-des{
+    text-align: left;
+  }
+  .banner-img{
+    justify-content: center;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    
+    margin-left: 50px;
+  }
+.workouts{
+  line-height: 20px;
+}
+  
+  
   /* run section */
   .run{
     flex-direction: column;
@@ -374,10 +400,15 @@ text-align: left;
     flex-direction: column;
   }
   .bmi-calculator h3{
-    text-align: center;
+    text-align: left;
   }
   .bmi-chart{
-    margin-left: -400px;
+    margin-left: -1px;
+    justify-content: left; 
+    margin-bottom: 50px;
+  }
+  .chart-head{
+    margin-left: -1px;
   }
 
 
@@ -400,7 +431,26 @@ text-align: left;
 /* team section */
 
   .team-img{
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* justify-content: center; */
+    margin-top: 20px;
   }
+
+  /* get start section */
+.get-start{
+  flex-direction: column;
+}
+.span-1{
+  text-align: left;
+}
+.get-start-1, .get-start-2, .get-start-3{
+  text-align: left;
+  margin-left: -1px;
+}
+
+
   
 }
+
+
