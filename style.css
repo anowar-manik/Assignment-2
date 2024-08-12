@@ -18,12 +18,19 @@
   body{
     background: #333;
     color: white;
+    max-width: 1440px
 }
 
 /* common style */
 .hide{
   display: none;
 }
+.side-margin{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+
 section{
   margin-top: 100px;
 }
@@ -56,11 +63,13 @@ section{
   align-items: center;
   
   
-  
-
+}
+.nav-menu{
+  font-size: 18px;
+  align-items: center;
 }
 span{
-  font-family: Maima
+  font-family: m;
 }
 nav ul{
   display: flex;
@@ -83,9 +92,10 @@ nav li{
 }
 nav button{
   background: rgb(230, 83, 60);
-  padding: 5px 10px;
+  padding: 8px 20px;
   color: white;
   border-radius: 14px;
+  
   
 }
 
@@ -141,11 +151,25 @@ nav button{
   border-radius: 14px;
   border: 1px solid black;
   margin-top: -150px;
-  line-height: .5rem;
+  margin-left: -100px;
+  line-height: 3px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 
 }
+.card-des{
+  
+}
+i{
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+
 .card-title{
   font-weight: 800;
+
 
    
   
@@ -154,7 +178,7 @@ nav button{
   border: 1px solid black;
   opacity: .5;
   text-align: center;
-  line-height: .5rem;
+  line-height: 1rem;
   margin-bottom: -100px;  
   margin-left: 200px;
 }
@@ -361,6 +385,10 @@ text-align: left;
 /* mobile responsive start */
 
 @media screen and (max-width:576px) {
+  .side-margin{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
   /* nav section */
   .nav-menu{
