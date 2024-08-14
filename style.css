@@ -343,33 +343,6 @@ justify-content: space-between;
 
 
 /* team section */
-.team-img{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 80px;
-  justify-items: center;
-  row-gap: 10px;
-  column-gap: 10px;
-  
-}
-.team img{
-  height: 300px;
-  width: 90%;
-  border-radius: 10px;
-  opacity: 0.8;
-  margin-bottom: 15px;
-  
-  
-}
-.team{
-  justify-content: center;
-}
-
-/* test */
-
-.meet-team{
-  
-}
 .all-image{
   display: grid;
   grid-template-columns: repeat(3, 2fr);
@@ -567,14 +540,6 @@ text-align: left;
 
 
 /* team section */
-
-  .team-img{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    /* justify-content: center; */
-    margin-top: 20px;
-  }
-
   .all-image{
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
