@@ -60,11 +60,11 @@
 
 
 
-    <main >
+    <main class="side-margin" >
 
                                             <!-- habit section -->
 
-         <section class="habits hide">
+         <section class="habits side-margin">
             <h1>Change Your Habits</h1>
             <div class="habits-img">
                 <div class="habits-img-1">
@@ -96,11 +96,11 @@
 
                                 <!-- Run Section -->
 
-        <section class="run hide">
+        <section class="run">
             <div class="run-content">
                 <h3 class="run-title">Run an Extra <br>Mile Easily</h3>
                 <p>We believe fitness should be accessible to everyone everywhere, <br>regerfiess of income or access to a gym. with hundreds of <br>professional workouts</p>
-                <button class="btn">Join Now</button>
+                <button class="banner-btn-1">Join Now</button>
             </div>
             <img src="images/run.jpg" alt="">
         </section>
@@ -131,7 +131,7 @@
 
                              <!-- bmi Calculate and chart section -->
 
-       <section class="bmi hide">
+       <section class="bmi">
         <h1>BMI Calculator</h1>
         <div class="bmi-chart-calculator">
             <h3 class="chart-head">BMI Calculator Chart</h3>
@@ -162,15 +162,19 @@
                     <input type="text" placeholder="Height/cm">
                     <input type="number" placeholder="Weight/Kg"><br>
                     <input type="number" placeholder="Age">
-                    <fieldset>
-                        <legend>Sex</legend>
-                        <label for="Male">
-                            <input type="radio" name="Sex" id="Male">Male
-                        </label>
-                        <label for="Fimale">
-                            <input type="radio" name="Sex" id="Fimale">Fimale
-                        </label>
-                    </fieldset>
+                   <label class="select" for="sex">
+                    <select name="sex" id="sex" required>
+                        <option value="" disabled selected hidden>Sex</option>
+                        <option value="Male">Male</option>
+                        <option value="Fimale">Fimale</option>
+                    </select>
+                   </label>
+                   <br>
+                   <select name="" id="activity">
+                    <option value="">Select an Activity Factor</option>
+                   </select>
+                   
+
                 </div>
                 <br>
                 <button class="banner-btn-1">Calculate</button>
@@ -182,7 +186,7 @@
         
                                 <!-- team section -->
 
-        <section class="team hide">
+        <section class="team ">
             <h1 class="text-center">Meet Our Team</h1>
             <div class="team-img">
                 <img src="images/trainer1.png" alt="" importance="dfdfdfdf">
@@ -198,9 +202,9 @@
     <footer >
                                         <!-- Get start section -->
                                          
-        <section class="get-start hide">
+        <section class="get-start">
             <div class="get-start-1">
-                <h1><span class="span-1">fitness</span></h1>
+                <h1><span class="span-1">Fitness</span></h1>
                 <p class="primary-p">We believe fitness should be accessible to everyone, <br>
                     everywhere, regardless of income or access to a gym. With <br>
                     hundreds of professional workouts.</p>

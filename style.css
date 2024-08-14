@@ -18,7 +18,7 @@
   body{
     background: #333;
     color: white;
-    max-width: 1440px
+    max-width: 1440px;
 }
 
 /* common style */
@@ -120,7 +120,7 @@ nav button{
 }
 
 .banner-btn-1{
-  background-color: #FF900E;
+  background-color: rgb(230, 83, 60);
   border: none;
   padding: 8px 30px;
   border-radius: 14px;
@@ -134,8 +134,8 @@ nav button{
   color: white;
 
 }
-.banner-btn-1, .banner-btn-2:hover{
-  
+.pointer{
+  cursor: pointer;
 }
 
 .banner-img{
@@ -299,10 +299,34 @@ justify-content: space-between;
   color: white;
   opacity: .5;
 }
-.bmi-calculator-content fieldset{
-  /* padding: 8px 10px; */
+.select{
+  padding: 8px 25px;
+  margin-bottom: 5px;
   border-radius: 8px;
-  width: 200px;
+  background-color: #333;
+  width: 100px;
+  color: white;
+
+}
+#sex{
+  width: 220px;
+  background-color: #333;
+  color: white;
+  padding: 8px 25px ;
+  border-radius: 8px;
+  margin-left: -25px;
+  
+}
+
+#activity{
+  padding: 8px 25px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  background-color: #333;
+  color: white;
+  width: 450px;
+
+
 }
 
 
@@ -346,7 +370,7 @@ justify-content: space-between;
 }
 
 .span-1{
-  color: brown;
+  color: rgb(230, 83, 60);
   font-weight: bolder;
   font-size: 3rem;
   font-style: italic;
@@ -386,8 +410,11 @@ text-align: left;
 
 @media screen and (max-width:576px) {
   .side-margin{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  body{
+    
   }
 
   /* nav section */
@@ -427,14 +454,21 @@ text-align: left;
   /* run section */
   .run{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .run img{
    margin-top: 50px;
    margin-left: -100px;
   align-items: center;
+  height: 300px;
+  width: 340px;
+  margin: 0 auto;
+  margin-top: 20px;
   }
   .run-title{
     align-items: center;
+    font-size: 3rem;
   }
 
 /* bmi section */
@@ -453,9 +487,16 @@ text-align: left;
   .chart-head{
     margin-left: -1px;
   }
+  #activity{
+    width: 220px;
+    margin-top: 5px;
+  }
 
 
 /* habits section */
+.habits h1{
+  font-size: 3rem;
+}
 
   .habits-img{
     display: flex;
@@ -463,11 +504,15 @@ text-align: left;
     justify-content: center;
     margin-bottom: 50px;
     text-align: left;
-
+   
   }
   .habits-img-1, .habits-img-2, .habits-img-3, .habits-img-4{
     text-align: center;
     margin-bottom: 50px;
+    margin-right: 20px;
+  }
+  .habits p{
+    margin-top: 2px;
   }
 
 
@@ -483,13 +528,44 @@ text-align: left;
   /* get start section */
 .get-start{
   flex-direction: column;
+  align-items: normal;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
 }
 .span-1{
   text-align: left;
+  width: 100%;
+  font-size: 4rem;
 }
 .get-start-1, .get-start-2, .get-start-3{
   text-align: left;
   margin-left: -1px;
+}
+.get-start p{
+  width: 100%;
+  justify-content: left;
+  align-content: normal;
+}
+.primary-p{
+  width: 100%;
+}
+.get-start-1{
+  width: 100%;
+  text-align: start;
+}
+.get-start-1 
+.get-start-1 h1{
+  font-size: 4rem;
+}
+.get-start-2, .get-start-3{
+  width: 100%;
+}
+.get-start-2 h3{
+  font-size: 2rem;
+}
+.get-start-3 h3{
+  font-size: 2rem;
 }
 
 
