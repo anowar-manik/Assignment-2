@@ -108,6 +108,7 @@ nav button{
 .shape-text{
   font-family: "Pacifico", cursive;
   font-style: italic;
+  font-weight: 100;
 }
 .banner{
   display: flex;
@@ -345,22 +346,62 @@ justify-content: space-between;
 .team-img{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
   margin-top: 80px;
   justify-items: center;
-  gap: 20px;
+  row-gap: 10px;
+  column-gap: 10px;
   
 }
 .team img{
   height: 300px;
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
   opacity: 0.8;
+  margin-bottom: 15px;
   
   
 }
 .team{
   justify-content: center;
+}
+
+/* test */
+
+.meet-team{
+  
+}
+.all-image{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 20px;
+}
+
+.image-team{
+  /* width: 326px;
+  height: 225px; */
+  position: relative;
+  border-radius: 8px;
+
+}
+.image-team img{
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+}
+
+.text-content{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  line-height: 4px;
+}
+
+.text-content>h3{
+  font-size: 1.2rem;
+}
+.text-content p{
+  font-size: .8rem;
+  opacity: .8;
 }
 
 
@@ -532,6 +573,15 @@ text-align: left;
     grid-template-columns: repeat(1,1fr);
     /* justify-content: center; */
     margin-top: 20px;
+  }
+
+  .all-image{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .image-team img{
+    width: 100%;
+    height: 100%;
   }
 
   /* get start section */
